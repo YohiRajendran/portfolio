@@ -184,19 +184,23 @@ Collaborated with the IT team to implement updates and improve website features,
     </section>
 
     <section class="section__container contact__container" id="contact">
+        <div class="form-container">
       <p class="section__subheader">Contact</p>
       <h2 class="section__header">Let's Discuss Your <span>Project</span></h2>
       <p class="section__description">
         Feel free to reach out to me for project inquiries, collaborations, or to discuss how I can help bring your ideas to life.
       </p>
-      <form action="/">
-        <input type="text" placeholder="Full name" />
-        <input type="text" placeholder="Your email" />
-        <input type="text" placeholder="Phone number" />
-        <input type="text" placeholder="Budget" />
-        <textarea placeholder="Message"></textarea>
-        <button class="btn" onclick="fun()"><a href="#">Submit Message</a></button>
+      <form id="contactForm" action="#" method="POST">
+        <input type="text" name="name" placeholder="Full name" />
+        <input type="email" name="email" placeholder="Your email" />
+        <input type="tel" name="phone" placeholder="Phone number" />
+        <input type="text" name="budget" placeholder="Budget" />
+        <textarea name="message" placeholder="Message"></textarea>
+        <button class="btn" type="submit" >Submit Message </button>
       </form>
+      <div id="successMessage" class="message success" style="display:none;">Thank you for your message!</div>
+        <div id="errorMessage" class="message error" style="display:none;">Oops, something went wrong. Please try again.</div>
+    </div>
     </section>
 
     <footer class="section__container footer__container">
