@@ -617,6 +617,19 @@ nav {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
   }
+  button {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+    white-space: nowrap;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
 
   .nav__btn a:hover {
     color: var(--white);
