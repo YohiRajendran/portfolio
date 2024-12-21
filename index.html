@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio of Yoheswari Rajendran</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"><span>Yoheswari</span>Rajendran</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="assets/CV.pdf" download="">Download CV</a></li>
+      </ul>
+      <div class="nav__btn">
+        <a href="assets/CV.pdf" download="">Download CV</a>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="about">
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <p class="section__subheader">Welcome</p>
+        <h1>I am a <span>MERN Full Stack</span> Web Developer</h1>
+        <p class="section__description">
+          Welcome to my personal portfolio! With a Master’s degree in Computer Science and Engineering (M.E.) 
+          and over five years of experience in data analysis, I’m transitioning into full stack development. 
+          I specialize in building responsive and scalable web applications using MongoDB, Express.js, React.js, and Node.js (MERN stack).
+           My passion for coding and solving problems drives me to create efficient and innovative solutions.
+           I am eager to grow as a developer and bring both my analytical mindset and technical skills to challenging projects.
+        </p>
+        <div class="header__btns">
+          <button class="btn"><a href="#contact">Contact Me</a></button>
+          <a href="#portfolio">
+            View Portfolio
+            <span><i class="ri-arrow-right-up-line"></i></span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container skill__container" id="skill">
+      <div class="skill__content">
+        <p class="section__subheader">My Skills</p>
+        <h2 class="section__header">
+          Why Hire Me For Your Next <span>Project?</span>
+        </h2>
+        <p class="section__description">
+            I offer a strong blend of full-stack development expertise and analytical problem-solving skills.
+              I can build end-to-end web solutions that are both efficient and user-friendly. 
+              I am dedicated to delivering projects on time and continuously improving 
+             my skills to provide innovative solutions. 
+            Let’s collaborate to bring your vision to life!
+        </p>
+        <div class="skill__btn">
+          <button class="btn"><a href="#contact">Hire Me</a></button>
+        </div>
+      </div>
+      <div class="skill__grid">
+        <div class="skill__card">
+          <span><i class="ri-pulse-line"></i></span>
+          <h4>Data Analyst</h4>
+          <p>
+            I specialize in interpreting complex data to help businesses make informed decisions.
+             
+          </p>
+        </div>
+        <div class="skill__card">
+          <span><i class="ri-pencil-ruler-2-line"></i></span>
+          <h4>Soft Skills</h4>
+          <p>
+            Strong Analytical and Problem-solving 
+          </p>
+        </div>
+        <div class="skill__card">
+          <span><i class="ri-graduation-cap-line"></i></span>
+          <h4>Certification</h4>
+          <p>
+            Web Development and Github course in Udemy
+          </p>
+        </div>
+      </div>
+    </section>
+
+        <section class="section__container review__container" id="review">
+      <p class="section__subheader" id="portfolio">Portfolio</p>
+      <h2 class="section__header">
+        Where EXPERTISE MEETS<span> INNOVATION</span>
+      </h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="review__card">
+              
+              <p>
+                Took a career break to focus on preparing for competitive government exams, 
+                dedicating time to enhancing my problem-solving and analytical skills.
+                During this period, I continued to update my technical skills, including learning new programming languages and 
+                frameworks, to re-enter the workforce with a stronger skill set.
+              </p>
+              <div class="review__details">
+                
+                <div>
+                  <h4> Carrer Gap</h4>
+                  <h5>2022-2024</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+                            <p>
+                                Worked on data management and analysis for library database management systems, 
+                                providing software solutions for colleges and schools.
+                                Analyzed large datasets to optimize library operations, improving resource allocation and management.
+                                Automated data entry and reporting processes, increasing efficiency and reducing errors.
+              </p>
+              <div class="review__details">
+                
+                <div>
+                  <h4>Data Analyst</h4>
+                  <h5>Sakthi Technologies, Trichy</h5>
+                  <h5>Oct 2018-Dec 2022</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                
+              </div>
+              <p>
+                Maintained the college website, ensuring its functionality and uptime for students and faculty.
+Assisted in managing the college’s database, ensuring smooth data access and backup for critical information.
+Collaborated with the IT team to implement updates and improve website features, enhancing the user experience.
+              </p>
+              <div class="review__details">
+                                <div>
+                  <h4>Programmer/Database Administrator</h4>
+                  <h5>Thassim Beevi Abdul Kader College for Women, Kilakarai</h5>
+                  <h5>Oct 2015-Sep 2016</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                
+              </div>
+              
+             
+          
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact</p>
+      <h2 class="section__header">Let's Discuss Your <span>Project</span></h2>
+      <p class="section__description">
+        Feel free to reach out to me for project inquiries, collaborations, or to discuss how I can help bring your ideas to life.
+      </p>
+      <form action="/">
+        <input type="text" placeholder="Full name" />
+        <input type="text" placeholder="Your email" />
+        <input type="text" placeholder="Phone number" />
+        <input type="text" placeholder="Budget" />
+        <textarea placeholder="Message"></textarea>
+        <button class="btn" onclick="fun()">Submit Message</button>
+      </form>
+    </section>
+
+    <footer class="section__container footer__container">
+      <p><center>Copyright © 2024 <a href="#">Yoheswari Rajendran </a> All rights reserved.</center></p>
+      
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
